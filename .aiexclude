@@ -1,0 +1,92 @@
+# Build outputs
+.gradle/
+build/
+**/build/
+out/
+.externalNativeBuild/
+.cxx/
+
+# IDE/project machine files
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+local.properties
+secrets.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.mobileprovision
+
+# Generated code and caches
+**/generated/
+**/ksp/
+**/kapt/
+**/.kotlin/
+**/.cache/
+**/tmp/
+
+# Test/coverage reports
+**/reports/
+**/test-results/
+coverage/
+*.exec
+*.ec
+
+# Android artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.hprof
+captures/
+
+# Large media/design exports
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.psd
+*.ai
+*.sketch
+*.fig
+*.mp4
+*.mov
+*.avi
+*.webm
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Stitch/Figma/export folders
+stitch_color_link_ui_design/
+color_link_improved_ui_design/
+color_link_premium_preserved_v2/
+color_link_design_system_v3_refined/
+design-exports/
+figma-export/
+stitch-export/
+
+# Node/tooling folders if design prototypes are included
+node_modules/
+.next/
+dist/
+
+# Logs
+*.log
+logs/
+
+# Do not exclude project documentation
+!AGENTS.md
+!docs/
+!docs/*.md

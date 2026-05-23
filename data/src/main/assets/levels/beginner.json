@@ -1,0 +1,32 @@
+{
+  "packId": "beginner",
+  "levels": [
+    {
+      "id": "beginner_001",
+      "number": 1,
+      "difficulty": "BEGINNER",
+      "gridSize": {
+        "rows": 5,
+        "columns": 5
+      },
+      "pairs": [
+        {
+          "id": "red_1",
+          "color": "Red",
+          "start": { "row": 0, "col": 0 },
+          "end": { "row": 0, "col": 4 }
+        },
+        {
+          "id": "blue_1",
+          "color": "Blue",
+          "start": { "row": 1, "col": 0 },
+          "end": { "row": 1, "col": 4 }
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 10,
+        "twoStarsMaxMoves": 15
+      }
+    }
+  ]
+}
