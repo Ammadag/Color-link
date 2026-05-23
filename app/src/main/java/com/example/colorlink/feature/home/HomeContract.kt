@@ -1,12 +1,12 @@
 package com.example.colorlink.feature.home
 
 data class HomeState(
-    val currentLevelNumber: Int = 24,
+    val currentLevelNumber: Int = 1,
     val totalStars: Int = 0,
-    val coins: Int = 1250,
-    val hints: Int = 10,
-    val streakDays: Int = 7,
-    val unlockedWorldInfo: String = "World 3 unlocked",
+    val coins: Int = 0,
+    val hints: Int = 0,
+    val streakDays: Int = 0,
+    val unlockedWorldInfo: String = "Welcome to Color Link",
     val selectedTab: Int = 0
 )
 
@@ -15,7 +15,7 @@ sealed interface HomeIntent {
     data object LevelSelectionClicked : HomeIntent
     data object DailyPuzzleClicked : HomeIntent
     data object SettingsClicked : HomeIntent
-    data class TabClicked(val index: Int) : HomeIntent
+    data class TabClicked(val route: String) : HomeIntent
 }
 
 sealed interface HomeEvent {

@@ -1,5 +1,6 @@
 package com.example.colorlink.core.ui.theme
 
+import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.unit.Dp
@@ -15,4 +16,18 @@ data class ColorLinkSpacing(
     val stackLg: Dp = 32.dp
 )
 
-val LocalColorLinkSpacing = staticCompositionLocalOf { ColorLinkSpacing() }
+@Composable
+fun colorLinkSpacing(): ColorLinkSpacing {
+    return ColorLinkSpacing(
+        unit = 3.sdp(),
+        stackSm = 7.sdp(),
+        stackMd = 13.sdp(),
+        gutter = 13.sdp(),
+        containerPadding = 20.sdp(),
+        stackLg = 27.sdp()
+    )
+}
+
+val LocalColorLinkSpacing = staticCompositionLocalOf<ColorLinkSpacing?> { null }
+
+

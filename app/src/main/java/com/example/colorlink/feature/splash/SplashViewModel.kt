@@ -21,7 +21,7 @@ class SplashViewModel(
 
     private fun startSplashTimer() {
         launchSafely {
-            delay(5500)
+            delay(2500)
             handleIntent(SplashIntent.AnimationFinished)
         }
     }

@@ -1,0 +1,9948 @@
+{
+  "schemaVersion": 1,
+  "packId": "easy",
+  "title": "Easy Pack",
+  "description": "30 offline-first Color Link easy levels. Includes full-board solution paths for hints and validation support.",
+  "levels": [
+    {
+      "id": "easy_001",
+      "number": 1,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 5,
+        "columns": 5
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 0,
+            "col": 4
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 1,
+            "col": 4
+          },
+          "end": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 2,
+            "col": 0
+          },
+          "end": {
+            "row": 2,
+            "col": 3
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 2,
+            "col": 4
+          },
+          "end": {
+            "row": 3,
+            "col": 1
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 3,
+            "col": 0
+          },
+          "end": {
+            "row": 4,
+            "col": 4
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 4
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 25,
+        "twoStarsMaxMoves": 35
+      }
+    },
+    {
+      "id": "easy_002",
+      "number": 2,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 5,
+        "columns": 6
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 4,
+            "col": 1
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 3,
+            "col": 1
+          },
+          "end": {
+            "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 2,
+            "col": 2
+          },
+          "end": {
+            "row": 2,
+            "col": 3
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 1,
+            "col": 3
+          },
+          "end": {
+            "row": 3,
+            "col": 4
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 4,
+            "col": 4
+          },
+          "end": {
+            "row": 0,
+            "col": 5
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 5
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 30,
+        "twoStarsMaxMoves": 40
+      }
+    },
+    {
+      "id": "easy_003",
+      "number": 3,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 5,
+        "columns": 6
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 4,
+            "col": 5
+          },
+          "end": {
+            "row": 4,
+            "col": 0
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 3,
+            "col": 0
+          },
+          "end": {
+            "row": 3,
+            "col": 4
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 3,
+            "col": 5
+          },
+          "end": {
+            "row": 2,
+            "col": 3
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 2,
+            "col": 2
+          },
+          "end": {
+            "row": 1,
+            "col": 5
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 0,
+            "col": 5
+          },
+          "end": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 30,
+        "twoStarsMaxMoves": 40
+      }
+    },
+    {
+      "id": "easy_004",
+      "number": 4,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 6,
+        "columns": 6
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 5
+          },
+          "end": {
+            "row": 5,
+            "col": 4
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 4,
+            "col": 4
+          },
+          "end": {
+            "row": 1,
+            "col": 3
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 2,
+            "col": 3
+          },
+          "end": {
+            "row": 2,
+            "col": 2
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 1,
+            "col": 2
+          },
+          "end": {
+            "row": 4,
+            "col": 1
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 5,
+            "col": 1
+          },
+          "end": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 36,
+        "twoStarsMaxMoves": 46
+      }
+    },
+    {
+      "id": "easy_005",
+      "number": 5,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 6,
+        "columns": 6
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 2,
+            "col": 5
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 3,
+            "col": 5
+          },
+          "end": {
+            "row": 5,
+            "col": 3
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 5,
+            "col": 2
+          },
+          "end": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 1,
+            "col": 1
+          },
+          "end": {
+            "row": 1,
+            "col": 4
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 2,
+            "col": 4
+          },
+          "end": {
+            "row": 4,
+            "col": 1
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 3,
+            "col": 1
+          },
+          "end": {
+            "row": 3,
+            "col": 2
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 2
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 36,
+        "twoStarsMaxMoves": 48
+      }
+    },
+    {
+      "id": "easy_006",
+      "number": 6,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 6,
+        "columns": 7
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 3,
+            "col": 2
+          },
+          "end": {
+            "row": 2,
+            "col": 1
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 3,
+            "col": 1
+          },
+          "end": {
+            "row": 4,
+            "col": 5
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 3,
+            "col": 5
+          },
+          "end": {
+            "row": 2,
+            "col": 0
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 0
+          },
+          "end": {
+            "row": 5,
+            "col": 3
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 5,
+            "col": 4
+          },
+          "end": {
+            "row": 2,
+            "col": 6
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 1,
+            "col": 6
+          },
+          "end": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 42,
+        "twoStarsMaxMoves": 54
+      }
+    },
+    {
+      "id": "easy_007",
+      "number": 7,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 6,
+        "columns": 7
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 6
+          },
+          "end": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 1,
+            "col": 1
+          },
+          "end": {
+            "row": 1,
+            "col": 6
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 2,
+            "col": 6
+          },
+          "end": {
+            "row": 3,
+            "col": 0
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 1
+          },
+          "end": {
+            "row": 4,
+            "col": 6
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 4,
+            "col": 5
+          },
+          "end": {
+            "row": 4,
+            "col": 1
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 4,
+            "col": 0
+          },
+          "end": {
+            "row": 5,
+            "col": 6
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 6
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 42,
+        "twoStarsMaxMoves": 54
+      }
+    },
+    {
+      "id": "easy_008",
+      "number": 8,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 7,
+        "columns": 7
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 6,
+            "col": 0
+          },
+          "end": {
+            "row": 0,
+            "col": 1
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 1,
+            "col": 1
+          },
+          "end": {
+            "row": 5,
+            "col": 2
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 4,
+            "col": 2
+          },
+          "end": {
+            "row": 2,
+            "col": 3
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 3
+          },
+          "end": {
+            "row": 2,
+            "col": 4
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 1,
+            "col": 4
+          },
+          "end": {
+            "row": 6,
+            "col": 5
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 6,
+            "col": 6
+          },
+          "end": {
+            "row": 0,
+            "col": 6
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 6
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 49,
+        "twoStarsMaxMoves": 61
+      }
+    },
+    {
+      "id": "easy_009",
+      "number": 9,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 7,
+        "columns": 7
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 6,
+            "col": 0
+          },
+          "end": {
+            "row": 5,
+            "col": 4
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 5,
+            "col": 3
+          },
+          "end": {
+            "row": 4,
+            "col": 1
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 4,
+            "col": 2
+          },
+          "end": {
+            "row": 3,
+            "col": 6
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 5
+          },
+          "end": {
+            "row": 3,
+            "col": 1
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 3,
+            "col": 0
+          },
+          "end": {
+            "row": 2,
+            "col": 4
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 2,
+            "col": 5
+          },
+          "end": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 0,
+            "col": 6
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 6
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 49,
+        "twoStarsMaxMoves": 63
+      }
+    },
+    {
+      "id": "easy_010",
+      "number": 10,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 7,
+        "columns": 8
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 6,
+            "col": 7
+          },
+          "end": {
+            "row": 0,
+            "col": 6
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 1,
+            "col": 6
+          },
+          "end": {
+            "row": 5,
+            "col": 5
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 4,
+            "col": 5
+          },
+          "end": {
+            "row": 1,
+            "col": 4
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 2,
+            "col": 4
+          },
+          "end": {
+            "row": 3,
+            "col": 3
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 2,
+            "col": 3
+          },
+          "end": {
+            "row": 6,
+            "col": 2
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 6,
+            "col": 1
+          },
+          "end": {
+            "row": 2,
+            "col": 1
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 1,
+            "col": 1
+          },
+          "end": {
+            "row": 6,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 6,
+              "col": 7
+            },
+            {
+              "row": 5,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 7
+            },
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 2,
+              "col": 7
+            },
+            {
+              "row": 1,
+              "col": 7
+            },
+            {
+              "row": 0,
+              "col": 7
+            },
+            {
+              "row": 0,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 6,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 56,
+        "twoStarsMaxMoves": 70
+      }
+    },
+    {
+      "id": "easy_011",
+      "number": 11,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 5,
+        "columns": 5
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 1,
+            "col": 4
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 1,
+            "col": 3
+          },
+          "end": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 2,
+            "col": 0
+          },
+          "end": {
+            "row": 2,
+            "col": 4
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 4
+          },
+          "end": {
+            "row": 3,
+            "col": 0
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 4,
+            "col": 0
+          },
+          "end": {
+            "row": 4,
+            "col": 4
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 4
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 25,
+        "twoStarsMaxMoves": 35
+      }
+    },
+    {
+      "id": "easy_012",
+      "number": 12,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 5,
+        "columns": 6
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 4,
+            "col": 5
+          },
+          "end": {
+            "row": 4,
+            "col": 0
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 3,
+            "col": 0
+          },
+          "end": {
+            "row": 2,
+            "col": 5
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 2,
+            "col": 4
+          },
+          "end": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 1,
+            "col": 1
+          },
+          "end": {
+            "row": 1,
+            "col": 5
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 0,
+            "col": 5
+          },
+          "end": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 30,
+        "twoStarsMaxMoves": 40
+      }
+    },
+    {
+      "id": "easy_013",
+      "number": 13,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 6,
+        "columns": 6
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 0,
+            "col": 4
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 0,
+            "col": 5
+          },
+          "end": {
+            "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 1,
+            "col": 1
+          },
+          "end": {
+            "row": 2,
+            "col": 5
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 5
+          },
+          "end": {
+            "row": 4,
+            "col": 0
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 4,
+            "col": 1
+          },
+          "end": {
+            "row": 5,
+            "col": 5
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 5,
+            "col": 4
+          },
+          "end": {
+            "row": 5,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 36,
+        "twoStarsMaxMoves": 48
+      }
+    },
+    {
+      "id": "easy_014",
+      "number": 14,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 6,
+        "columns": 7
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 5,
+            "col": 1
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 4,
+            "col": 1
+          },
+          "end": {
+            "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 2,
+            "col": 2
+          },
+          "end": {
+            "row": 4,
+            "col": 3
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 3
+          },
+          "end": {
+            "row": 2,
+            "col": 4
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 3,
+            "col": 4
+          },
+          "end": {
+            "row": 4,
+            "col": 5
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 3,
+            "col": 5
+          },
+          "end": {
+            "row": 5,
+            "col": 6
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 6
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 42,
+        "twoStarsMaxMoves": 54
+      }
+    },
+    {
+      "id": "easy_015",
+      "number": 15,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 7,
+        "columns": 7
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 6,
+            "col": 6
+          },
+          "end": {
+            "row": 5,
+            "col": 0
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 5,
+            "col": 1
+          },
+          "end": {
+            "row": 4,
+            "col": 6
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 4,
+            "col": 5
+          },
+          "end": {
+            "row": 4,
+            "col": 0
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 0
+          },
+          "end": {
+            "row": 2,
+            "col": 6
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 2,
+            "col": 5
+          },
+          "end": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 1,
+            "col": 1
+          },
+          "end": {
+            "row": 0,
+            "col": 6
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 0,
+            "col": 5
+          },
+          "end": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 49,
+        "twoStarsMaxMoves": 63
+      }
+    },
+    {
+      "id": "easy_016",
+      "number": 16,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 7,
+        "columns": 8
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 7
+          },
+          "end": {
+            "row": 5,
+            "col": 6
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 4,
+            "col": 6
+          },
+          "end": {
+            "row": 2,
+            "col": 5
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 3,
+            "col": 5
+          },
+          "end": {
+            "row": 1,
+            "col": 4
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 0,
+            "col": 4
+          },
+          "end": {
+            "row": 6,
+            "col": 3
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 6,
+            "col": 2
+          },
+          "end": {
+            "row": 0,
+            "col": 2
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 0,
+            "col": 1
+          },
+          "end": {
+            "row": 5,
+            "col": 1
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 6,
+            "col": 1
+          },
+          "end": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 7
+            },
+            {
+              "row": 1,
+              "col": 7
+            },
+            {
+              "row": 2,
+              "col": 7
+            },
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 7
+            },
+            {
+              "row": 5,
+              "col": 7
+            },
+            {
+              "row": 6,
+              "col": 7
+            },
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 56,
+        "twoStarsMaxMoves": 70
+      }
+    },
+    {
+      "id": "easy_017",
+      "number": 17,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 6,
+        "columns": 8
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 0,
+            "col": 4
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 0,
+            "col": 5
+          },
+          "end": {
+            "row": 5,
+            "col": 5
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 5,
+            "col": 4
+          },
+          "end": {
+            "row": 1,
+            "col": 1
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 1,
+            "col": 2
+          },
+          "end": {
+            "row": 4,
+            "col": 5
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 4,
+            "col": 4
+          },
+          "end": {
+            "row": 2,
+            "col": 1
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 2,
+            "col": 2
+          },
+          "end": {
+            "row": 3,
+            "col": 2
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 7
+            },
+            {
+              "row": 1,
+              "col": 7
+            },
+            {
+              "row": 2,
+              "col": 7
+            },
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 7
+            },
+            {
+              "row": 5,
+              "col": 7
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 2
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 48,
+        "twoStarsMaxMoves": 60
+      }
+    },
+    {
+      "id": "easy_018",
+      "number": 18,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 7,
+        "columns": 8
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 3,
+            "col": 4
+          },
+          "end": {
+            "row": 4,
+            "col": 4
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 4,
+            "col": 5
+          },
+          "end": {
+            "row": 4,
+            "col": 1
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 5,
+            "col": 1
+          },
+          "end": {
+            "row": 1,
+            "col": 6
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 1,
+            "col": 5
+          },
+          "end": {
+            "row": 4,
+            "col": 0
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 5,
+            "col": 0
+          },
+          "end": {
+            "row": 6,
+            "col": 5
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 6,
+            "col": 6
+          },
+          "end": {
+            "row": 0,
+            "col": 6
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 0,
+            "col": 5
+          },
+          "end": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 6,
+              "col": 7
+            },
+            {
+              "row": 5,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 7
+            },
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 2,
+              "col": 7
+            },
+            {
+              "row": 1,
+              "col": 7
+            },
+            {
+              "row": 0,
+              "col": 7
+            },
+            {
+              "row": 0,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 56,
+        "twoStarsMaxMoves": 70
+      }
+    },
+    {
+      "id": "easy_019",
+      "number": 19,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 8,
+        "columns": 8
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 7
+          },
+          "end": {
+            "row": 0,
+            "col": 3
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 0,
+            "col": 2
+          },
+          "end": {
+            "row": 1,
+            "col": 5
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 1,
+            "col": 6
+          },
+          "end": {
+            "row": 2,
+            "col": 0
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 0
+          },
+          "end": {
+            "row": 3,
+            "col": 6
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 3,
+            "col": 7
+          },
+          "end": {
+            "row": 5,
+            "col": 2
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 5,
+            "col": 3
+          },
+          "end": {
+            "row": 6,
+            "col": 3
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 6,
+            "col": 2
+          },
+          "end": {
+            "row": 7,
+            "col": 7
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 7
+            },
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 7
+            },
+            {
+              "row": 2,
+              "col": 7
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 7
+            },
+            {
+              "row": 6,
+              "col": 7
+            },
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 7,
+              "col": 0
+            },
+            {
+              "row": 7,
+              "col": 1
+            },
+            {
+              "row": 7,
+              "col": 2
+            },
+            {
+              "row": 7,
+              "col": 3
+            },
+            {
+              "row": 7,
+              "col": 4
+            },
+            {
+              "row": 7,
+              "col": 5
+            },
+            {
+              "row": 7,
+              "col": 6
+            },
+            {
+              "row": 7,
+              "col": 7
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 64,
+        "twoStarsMaxMoves": 78
+      }
+    },
+    {
+      "id": "easy_020",
+      "number": 20,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 8,
+        "columns": 8
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 7,
+            "col": 0
+          },
+          "end": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 7,
+            "col": 1
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 7,
+            "col": 2
+          },
+          "end": {
+            "row": 0,
+            "col": 3
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 1,
+            "col": 3
+          },
+          "end": {
+            "row": 5,
+            "col": 3
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 6,
+            "col": 3
+          },
+          "end": {
+            "row": 1,
+            "col": 4
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 0,
+            "col": 4
+          },
+          "end": {
+            "row": 7,
+            "col": 5
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 7,
+            "col": 6
+          },
+          "end": {
+            "row": 1,
+            "col": 6
+          }
+        },
+        {
+          "id": "pink_8",
+          "color": "PINK",
+          "shape": "PENTAGON",
+          "start": {
+            "row": 0,
+            "col": 6
+          },
+          "end": {
+            "row": 7,
+            "col": 7
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 7,
+              "col": 0
+            },
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 7,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 7,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 7,
+              "col": 3
+            },
+            {
+              "row": 7,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 7,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 7,
+              "col": 6
+            },
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "pink_8",
+          "path": [
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 7
+            },
+            {
+              "row": 1,
+              "col": 7
+            },
+            {
+              "row": 2,
+              "col": 7
+            },
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 7
+            },
+            {
+              "row": 5,
+              "col": 7
+            },
+            {
+              "row": 6,
+              "col": 7
+            },
+            {
+              "row": 7,
+              "col": 7
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 64,
+        "twoStarsMaxMoves": 80
+      }
+    },
+    {
+      "id": "easy_021",
+      "number": 21,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 6,
+        "columns": 6
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 5,
+            "col": 5
+          },
+          "end": {
+            "row": 5,
+            "col": 0
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 4,
+            "col": 0
+          },
+          "end": {
+            "row": 4,
+            "col": 5
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 3,
+            "col": 5
+          },
+          "end": {
+            "row": 3,
+            "col": 1
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 0
+          },
+          "end": {
+            "row": 2,
+            "col": 3
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 2,
+            "col": 4
+          },
+          "end": {
+            "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 1,
+            "col": 1
+          },
+          "end": {
+            "row": 0,
+            "col": 5
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 5
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 36,
+        "twoStarsMaxMoves": 48
+      }
+    },
+    {
+      "id": "easy_022",
+      "number": 22,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 6,
+        "columns": 7
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 6
+          },
+          "end": {
+            "row": 5,
+            "col": 5
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 4,
+            "col": 5
+          },
+          "end": {
+            "row": 3,
+            "col": 4
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 4,
+            "col": 4
+          },
+          "end": {
+            "row": 1,
+            "col": 3
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 0,
+            "col": 3
+          },
+          "end": {
+            "row": 4,
+            "col": 2
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 5,
+            "col": 2
+          },
+          "end": {
+            "row": 0,
+            "col": 1
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 5,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 42,
+        "twoStarsMaxMoves": 54
+      }
+    },
+    {
+      "id": "easy_023",
+      "number": 23,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 7,
+        "columns": 7
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 0,
+            "col": 6
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 1,
+            "col": 6
+          },
+          "end": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 2,
+            "col": 0
+          },
+          "end": {
+            "row": 2,
+            "col": 5
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 2,
+            "col": 6
+          },
+          "end": {
+            "row": 3,
+            "col": 2
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 3,
+            "col": 1
+          },
+          "end": {
+            "row": 4,
+            "col": 5
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 4,
+            "col": 6
+          },
+          "end": {
+            "row": 5,
+            "col": 0
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 6,
+            "col": 0
+          },
+          "end": {
+            "row": 6,
+            "col": 6
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 6
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 49,
+        "twoStarsMaxMoves": 63
+      }
+    },
+    {
+      "id": "easy_024",
+      "number": 24,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 7,
+        "columns": 8
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 6,
+            "col": 7
+          },
+          "end": {
+            "row": 6,
+            "col": 1
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 6,
+            "col": 0
+          },
+          "end": {
+            "row": 5,
+            "col": 7
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 4,
+            "col": 7
+          },
+          "end": {
+            "row": 3,
+            "col": 1
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 2
+          },
+          "end": {
+            "row": 2,
+            "col": 4
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 2,
+            "col": 3
+          },
+          "end": {
+            "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 1,
+            "col": 3
+          },
+          "end": {
+            "row": 0,
+            "col": 6
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 0,
+            "col": 5
+          },
+          "end": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 6,
+              "col": 7
+            },
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 7
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 4,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 2,
+              "col": 7
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 7
+            },
+            {
+              "row": 0,
+              "col": 7
+            },
+            {
+              "row": 0,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 56,
+        "twoStarsMaxMoves": 70
+      }
+    },
+    {
+      "id": "easy_025",
+      "number": 25,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 8,
+        "columns": 8
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 1,
+            "col": 7
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 1,
+            "col": 6
+          },
+          "end": {
+            "row": 2,
+            "col": 1
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 2,
+            "col": 2
+          },
+          "end": {
+            "row": 2,
+            "col": 7
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 7
+          },
+          "end": {
+            "row": 3,
+            "col": 0
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 4,
+            "col": 0
+          },
+          "end": {
+            "row": 5,
+            "col": 7
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 5,
+            "col": 6
+          },
+          "end": {
+            "row": 5,
+            "col": 0
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 6,
+            "col": 0
+          },
+          "end": {
+            "row": 6,
+            "col": 6
+          }
+        },
+        {
+          "id": "pink_8",
+          "color": "PINK",
+          "shape": "PENTAGON",
+          "start": {
+            "row": 6,
+            "col": 7
+          },
+          "end": {
+            "row": 7,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 7
+            },
+            {
+              "row": 1,
+              "col": 7
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 7
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 7
+            },
+            {
+              "row": 5,
+              "col": 7
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "pink_8",
+          "path": [
+            {
+              "row": 6,
+              "col": 7
+            },
+            {
+              "row": 7,
+              "col": 7
+            },
+            {
+              "row": 7,
+              "col": 6
+            },
+            {
+              "row": 7,
+              "col": 5
+            },
+            {
+              "row": 7,
+              "col": 4
+            },
+            {
+              "row": 7,
+              "col": 3
+            },
+            {
+              "row": 7,
+              "col": 2
+            },
+            {
+              "row": 7,
+              "col": 1
+            },
+            {
+              "row": 7,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 64,
+        "twoStarsMaxMoves": 80
+      }
+    },
+    {
+      "id": "easy_026",
+      "number": 26,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 8,
+        "columns": 9
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 6,
+            "col": 0
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 7,
+            "col": 0
+          },
+          "end": {
+            "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 2,
+            "col": 2
+          },
+          "end": {
+            "row": 6,
+            "col": 2
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 7,
+            "col": 2
+          },
+          "end": {
+            "row": 0,
+            "col": 3
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 0,
+            "col": 4
+          },
+          "end": {
+            "row": 4,
+            "col": 5
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 3,
+            "col": 5
+          },
+          "end": {
+            "row": 3,
+            "col": 6
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 4,
+            "col": 6
+          },
+          "end": {
+            "row": 4,
+            "col": 7
+          }
+        },
+        {
+          "id": "pink_8",
+          "color": "PINK",
+          "shape": "PENTAGON",
+          "start": {
+            "row": 3,
+            "col": 7
+          },
+          "end": {
+            "row": 7,
+            "col": 8
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 6,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 7,
+              "col": 0
+            },
+            {
+              "row": 7,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 7,
+              "col": 2
+            },
+            {
+              "row": 7,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 7,
+              "col": 4
+            },
+            {
+              "row": 7,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 7,
+              "col": 6
+            },
+            {
+              "row": 7,
+              "col": 7
+            },
+            {
+              "row": 6,
+              "col": 7
+            },
+            {
+              "row": 5,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 7
+            }
+          ]
+        },
+        {
+          "pairId": "pink_8",
+          "path": [
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 2,
+              "col": 7
+            },
+            {
+              "row": 1,
+              "col": 7
+            },
+            {
+              "row": 0,
+              "col": 7
+            },
+            {
+              "row": 0,
+              "col": 8
+            },
+            {
+              "row": 1,
+              "col": 8
+            },
+            {
+              "row": 2,
+              "col": 8
+            },
+            {
+              "row": 3,
+              "col": 8
+            },
+            {
+              "row": 4,
+              "col": 8
+            },
+            {
+              "row": 5,
+              "col": 8
+            },
+            {
+              "row": 6,
+              "col": 8
+            },
+            {
+              "row": 7,
+              "col": 8
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 72,
+        "twoStarsMaxMoves": 88
+      }
+    },
+    {
+      "id": "easy_027",
+      "number": 27,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 7,
+        "columns": 9
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 6,
+            "col": 8
+          },
+          "end": {
+            "row": 6,
+            "col": 2
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 6,
+            "col": 1
+          },
+          "end": {
+            "row": 5,
+            "col": 7
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 5,
+            "col": 8
+          },
+          "end": {
+            "row": 3,
+            "col": 0
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 1
+          },
+          "end": {
+            "row": 3,
+            "col": 8
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 2,
+            "col": 8
+          },
+          "end": {
+            "row": 1,
+            "col": 1
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 1,
+            "col": 2
+          },
+          "end": {
+            "row": 0,
+            "col": 7
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 0,
+            "col": 6
+          },
+          "end": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 6,
+              "col": 8
+            },
+            {
+              "row": 6,
+              "col": 7
+            },
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 7
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 5,
+              "col": 8
+            },
+            {
+              "row": 4,
+              "col": 8
+            },
+            {
+              "row": 4,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 3,
+              "col": 8
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 2,
+              "col": 8
+            },
+            {
+              "row": 2,
+              "col": 7
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 7
+            },
+            {
+              "row": 1,
+              "col": 8
+            },
+            {
+              "row": 0,
+              "col": 8
+            },
+            {
+              "row": 0,
+              "col": 7
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 63,
+        "twoStarsMaxMoves": 77
+      }
+    },
+    {
+      "id": "easy_028",
+      "number": 28,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 8,
+        "columns": 9
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 7,
+            "col": 8
+          },
+          "end": {
+            "row": 1,
+            "col": 7
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 2,
+            "col": 7
+          },
+          "end": {
+            "row": 7,
+            "col": 6
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 6,
+            "col": 6
+          },
+          "end": {
+            "row": 2,
+            "col": 5
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 3,
+            "col": 5
+          },
+          "end": {
+            "row": 5,
+            "col": 4
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 4,
+            "col": 4
+          },
+          "end": {
+            "row": 1,
+            "col": 3
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 2,
+            "col": 3
+          },
+          "end": {
+            "row": 4,
+            "col": 2
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 3,
+            "col": 2
+          },
+          "end": {
+            "row": 4,
+            "col": 1
+          }
+        },
+        {
+          "id": "pink_8",
+          "color": "PINK",
+          "shape": "PENTAGON",
+          "start": {
+            "row": 5,
+            "col": 1
+          },
+          "end": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 7,
+              "col": 8
+            },
+            {
+              "row": 6,
+              "col": 8
+            },
+            {
+              "row": 5,
+              "col": 8
+            },
+            {
+              "row": 4,
+              "col": 8
+            },
+            {
+              "row": 3,
+              "col": 8
+            },
+            {
+              "row": 2,
+              "col": 8
+            },
+            {
+              "row": 1,
+              "col": 8
+            },
+            {
+              "row": 0,
+              "col": 8
+            },
+            {
+              "row": 0,
+              "col": 7
+            },
+            {
+              "row": 1,
+              "col": 7
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 2,
+              "col": 7
+            },
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 7
+            },
+            {
+              "row": 5,
+              "col": 7
+            },
+            {
+              "row": 6,
+              "col": 7
+            },
+            {
+              "row": 7,
+              "col": 7
+            },
+            {
+              "row": 7,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 7,
+              "col": 5
+            },
+            {
+              "row": 7,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 4
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 7,
+              "col": 3
+            },
+            {
+              "row": 7,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "pink_8",
+          "path": [
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 7,
+              "col": 1
+            },
+            {
+              "row": 7,
+              "col": 0
+            },
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 72,
+        "twoStarsMaxMoves": 88
+      }
+    },
+    {
+      "id": "easy_029",
+      "number": 29,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 8,
+        "columns": 10
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 0,
+            "col": 0
+          },
+          "end": {
+            "row": 0,
+            "col": 8
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 0,
+            "col": 9
+          },
+          "end": {
+            "row": 7,
+            "col": 5
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 7,
+            "col": 4
+          },
+          "end": {
+            "row": 6,
+            "col": 0
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 5,
+            "col": 0
+          },
+          "end": {
+            "row": 1,
+            "col": 5
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 1,
+            "col": 6
+          },
+          "end": {
+            "row": 6,
+            "col": 6
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 6,
+            "col": 5
+          },
+          "end": {
+            "row": 2,
+            "col": 3
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 2,
+            "col": 4
+          },
+          "end": {
+            "row": 5,
+            "col": 3
+          }
+        },
+        {
+          "id": "pink_8",
+          "color": "PINK",
+          "shape": "PENTAGON",
+          "start": {
+            "row": 5,
+            "col": 2
+          },
+          "end": {
+            "row": 4,
+            "col": 3
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 0,
+              "col": 0
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 7
+            },
+            {
+              "row": 0,
+              "col": 8
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 0,
+              "col": 9
+            },
+            {
+              "row": 1,
+              "col": 9
+            },
+            {
+              "row": 2,
+              "col": 9
+            },
+            {
+              "row": 3,
+              "col": 9
+            },
+            {
+              "row": 4,
+              "col": 9
+            },
+            {
+              "row": 5,
+              "col": 9
+            },
+            {
+              "row": 6,
+              "col": 9
+            },
+            {
+              "row": 7,
+              "col": 9
+            },
+            {
+              "row": 7,
+              "col": 8
+            },
+            {
+              "row": 7,
+              "col": 7
+            },
+            {
+              "row": 7,
+              "col": 6
+            },
+            {
+              "row": 7,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 7,
+              "col": 4
+            },
+            {
+              "row": 7,
+              "col": 3
+            },
+            {
+              "row": 7,
+              "col": 2
+            },
+            {
+              "row": 7,
+              "col": 1
+            },
+            {
+              "row": 7,
+              "col": 0
+            },
+            {
+              "row": 6,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 0
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 5
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 7
+            },
+            {
+              "row": 1,
+              "col": 8
+            },
+            {
+              "row": 2,
+              "col": 8
+            },
+            {
+              "row": 3,
+              "col": 8
+            },
+            {
+              "row": 4,
+              "col": 8
+            },
+            {
+              "row": 5,
+              "col": 8
+            },
+            {
+              "row": 6,
+              "col": 8
+            },
+            {
+              "row": 6,
+              "col": 7
+            },
+            {
+              "row": 6,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 7
+            },
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 7
+            },
+            {
+              "row": 5,
+              "col": 7
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "pink_8",
+          "path": [
+            {
+              "row": 5,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 3
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 80,
+        "twoStarsMaxMoves": 96
+      }
+    },
+    {
+      "id": "easy_030",
+      "number": 30,
+      "difficulty": "EASY",
+      "gridSize": {
+        "rows": 9,
+        "columns": 9
+      },
+      "pairs": [
+        {
+          "id": "blue_1",
+          "color": "BLUE",
+          "shape": "CIRCLE",
+          "start": {
+            "row": 4,
+            "col": 4
+          },
+          "end": {
+            "row": 5,
+            "col": 2
+          }
+        },
+        {
+          "id": "cyan_2",
+          "color": "CYAN",
+          "shape": "DIAMOND",
+          "start": {
+            "row": 6,
+            "col": 2
+          },
+          "end": {
+            "row": 4,
+            "col": 6
+          }
+        },
+        {
+          "id": "purple_3",
+          "color": "PURPLE",
+          "shape": "SQUARE",
+          "start": {
+            "row": 3,
+            "col": 6
+          },
+          "end": {
+            "row": 4,
+            "col": 1
+          }
+        },
+        {
+          "id": "green_4",
+          "color": "GREEN",
+          "shape": "TRIANGLE",
+          "start": {
+            "row": 5,
+            "col": 1
+          },
+          "end": {
+            "row": 4,
+            "col": 7
+          }
+        },
+        {
+          "id": "yellow_5",
+          "color": "YELLOW",
+          "shape": "HEXAGON",
+          "start": {
+            "row": 3,
+            "col": 7
+          },
+          "end": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "orange_6",
+          "color": "ORANGE",
+          "shape": "STAR",
+          "start": {
+            "row": 2,
+            "col": 0
+          },
+          "end": {
+            "row": 8,
+            "col": 3
+          }
+        },
+        {
+          "id": "red_7",
+          "color": "RED",
+          "shape": "RING",
+          "start": {
+            "row": 8,
+            "col": 4
+          },
+          "end": {
+            "row": 2,
+            "col": 8
+          }
+        },
+        {
+          "id": "pink_8",
+          "color": "PINK",
+          "shape": "PENTAGON",
+          "start": {
+            "row": 1,
+            "col": 8
+          },
+          "end": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ],
+      "solution": [
+        {
+          "pairId": "blue_1",
+          "path": [
+            {
+              "row": 4,
+              "col": 4
+            },
+            {
+              "row": 4,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 3
+            },
+            {
+              "row": 5,
+              "col": 4
+            },
+            {
+              "row": 5,
+              "col": 5
+            },
+            {
+              "row": 4,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 5
+            },
+            {
+              "row": 3,
+              "col": 4
+            },
+            {
+              "row": 3,
+              "col": 3
+            },
+            {
+              "row": 3,
+              "col": 2
+            },
+            {
+              "row": 4,
+              "col": 2
+            },
+            {
+              "row": 5,
+              "col": 2
+            }
+          ]
+        },
+        {
+          "pairId": "cyan_2",
+          "path": [
+            {
+              "row": 6,
+              "col": 2
+            },
+            {
+              "row": 6,
+              "col": 3
+            },
+            {
+              "row": 6,
+              "col": 4
+            },
+            {
+              "row": 6,
+              "col": 5
+            },
+            {
+              "row": 6,
+              "col": 6
+            },
+            {
+              "row": 5,
+              "col": 6
+            },
+            {
+              "row": 4,
+              "col": 6
+            }
+          ]
+        },
+        {
+          "pairId": "purple_3",
+          "path": [
+            {
+              "row": 3,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 6
+            },
+            {
+              "row": 2,
+              "col": 5
+            },
+            {
+              "row": 2,
+              "col": 4
+            },
+            {
+              "row": 2,
+              "col": 3
+            },
+            {
+              "row": 2,
+              "col": 2
+            },
+            {
+              "row": 2,
+              "col": 1
+            },
+            {
+              "row": 3,
+              "col": 1
+            },
+            {
+              "row": 4,
+              "col": 1
+            }
+          ]
+        },
+        {
+          "pairId": "green_4",
+          "path": [
+            {
+              "row": 5,
+              "col": 1
+            },
+            {
+              "row": 6,
+              "col": 1
+            },
+            {
+              "row": 7,
+              "col": 1
+            },
+            {
+              "row": 7,
+              "col": 2
+            },
+            {
+              "row": 7,
+              "col": 3
+            },
+            {
+              "row": 7,
+              "col": 4
+            },
+            {
+              "row": 7,
+              "col": 5
+            },
+            {
+              "row": 7,
+              "col": 6
+            },
+            {
+              "row": 7,
+              "col": 7
+            },
+            {
+              "row": 6,
+              "col": 7
+            },
+            {
+              "row": 5,
+              "col": 7
+            },
+            {
+              "row": 4,
+              "col": 7
+            }
+          ]
+        },
+        {
+          "pairId": "yellow_5",
+          "path": [
+            {
+              "row": 3,
+              "col": 7
+            },
+            {
+              "row": 2,
+              "col": 7
+            },
+            {
+              "row": 1,
+              "col": 7
+            },
+            {
+              "row": 1,
+              "col": 6
+            },
+            {
+              "row": 1,
+              "col": 5
+            },
+            {
+              "row": 1,
+              "col": 4
+            },
+            {
+              "row": 1,
+              "col": 3
+            },
+            {
+              "row": 1,
+              "col": 2
+            },
+            {
+              "row": 1,
+              "col": 1
+            },
+            {
+              "row": 1,
+              "col": 0
+            }
+          ]
+        },
+        {
+          "pairId": "orange_6",
+          "path": [
+            {
+              "row": 2,
+              "col": 0
+            },
+            {
+              "row": 3,
+              "col": 0
+            },
+            {
+              "row": 4,
+              "col": 0
+            },
+            {
+              "row": 5,
+              "col": 0
+            },
+            {
+              "row": 6,
+              "col": 0
+            },
+            {
+              "row": 7,
+              "col": 0
+            },
+            {
+              "row": 8,
+              "col": 0
+            },
+            {
+              "row": 8,
+              "col": 1
+            },
+            {
+              "row": 8,
+              "col": 2
+            },
+            {
+              "row": 8,
+              "col": 3
+            }
+          ]
+        },
+        {
+          "pairId": "red_7",
+          "path": [
+            {
+              "row": 8,
+              "col": 4
+            },
+            {
+              "row": 8,
+              "col": 5
+            },
+            {
+              "row": 8,
+              "col": 6
+            },
+            {
+              "row": 8,
+              "col": 7
+            },
+            {
+              "row": 8,
+              "col": 8
+            },
+            {
+              "row": 7,
+              "col": 8
+            },
+            {
+              "row": 6,
+              "col": 8
+            },
+            {
+              "row": 5,
+              "col": 8
+            },
+            {
+              "row": 4,
+              "col": 8
+            },
+            {
+              "row": 3,
+              "col": 8
+            },
+            {
+              "row": 2,
+              "col": 8
+            }
+          ]
+        },
+        {
+          "pairId": "pink_8",
+          "path": [
+            {
+              "row": 1,
+              "col": 8
+            },
+            {
+              "row": 0,
+              "col": 8
+            },
+            {
+              "row": 0,
+              "col": 7
+            },
+            {
+              "row": 0,
+              "col": 6
+            },
+            {
+              "row": 0,
+              "col": 5
+            },
+            {
+              "row": 0,
+              "col": 4
+            },
+            {
+              "row": 0,
+              "col": 3
+            },
+            {
+              "row": 0,
+              "col": 2
+            },
+            {
+              "row": 0,
+              "col": 1
+            },
+            {
+              "row": 0,
+              "col": 0
+            }
+          ]
+        }
+      ],
+      "starRules": {
+        "threeStarsMaxMoves": 81,
+        "twoStarsMaxMoves": 97
+      }
+    }
+  ]
+}

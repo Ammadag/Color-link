@@ -10,7 +10,8 @@ import org.koin.androidx.compose.koinViewModel
 fun GameplayRoute(
     levelId: String,
     onBack: () -> Unit,
-    onNavigateToNextLevel: () -> Unit,
+    onNavigateToLevelSelection: () -> Unit,
+    onNavigateToGameplay: (String) -> Unit,
     viewModel: GameplayViewModel = koinViewModel()
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -23,15 +24,16 @@ fun GameplayRoute(
         viewModel.events.collect { event ->
             when (event) {
                 GameplayEvent.NavigateBack -> onBack()
-                GameplayEvent.NavigateToNextLevel -> onNavigateToNextLevel()
+                GameplayEvent.NavigateToLevelSelection -> onNavigateToLevelSelection()
+                is GameplayEvent.NavigateToGameplay -> onNavigateToGameplay(event.levelId)
                 is GameplayEvent.ShowError -> {
                     // Could show a Snackbar here
                 }
                 GameplayEvent.ShowLevelComplete -> {
-                    // Handled via state.isCompleted in GameplayScreen for now
+                    // Handled via state.isCompleted in GameplayScreen
                 }
                 GameplayEvent.PlayWinAnimation -> {
-                    // Could trigger specific animation state if needed
+                    // Could trigger specific animation state
                 }
             }
         }

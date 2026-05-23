@@ -20,12 +20,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
 import com.example.colorlink.core.ui.components.BottomNavItem
 import com.example.colorlink.core.ui.components.ColorLinkBottomNavBar
 import com.example.colorlink.core.ui.components.ColorLinkStatBadge
 import com.example.colorlink.core.ui.components.ColorLinkTopAppBar
 import com.example.colorlink.core.ui.theme.ColorLinkTheme
+import com.example.colorlink.core.ui.theme.sdp
 import com.example.colorlink.ui.navigation.Screen
 
 @Composable
@@ -34,16 +34,18 @@ fun ColorLinkMainTopBar(
     hints: Int,
     modifier: Modifier = Modifier,
     title: String = "Color Link",
-    showLogo: Boolean = true
+    showLogo: Boolean = true,
+    navigationIcon: @Composable (() -> Unit)? = null
 ) {
     ColorLinkTopAppBar(
         modifier = modifier,
+        navigationIcon = navigationIcon,
         title = {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 if (showLogo) {
                     Box(
                         modifier = Modifier
-                            .size(24.dp)
+                            .size(24.sdp())
                             .clip(CircleShape)
                             .background(
                                 Brush.linearGradient(
@@ -96,7 +98,7 @@ fun ColorLinkMainBottomNavBar(
     ColorLinkBottomNavBar(
         items = items,
         currentRoute = currentRoute,
-        onItemClick = { item -> 
+        onItemClick = { item ->
             if (currentRoute != item.route) {
                 onNavigate(item.route)
             }

@@ -9,6 +9,8 @@ import org.koin.androidx.compose.koinViewModel
 @Composable
 fun LevelSelectionRoute(
     onNavigateToGameplay: (String) -> Unit,
+    onNavigateToHome: () -> Unit,
+    onNavigateToSettings: () -> Unit,
     onBack: () -> Unit,
     viewModel: LevelSelectionViewModel = koinViewModel()
 ) {
@@ -23,7 +25,8 @@ fun LevelSelectionRoute(
             when (event) {
                 is LevelSelectionEvent.NavigateToGameplay -> onNavigateToGameplay(event.levelId)
                 LevelSelectionEvent.NavigateBack -> onBack()
-                else -> {}
+                LevelSelectionEvent.NavigateToHome -> onNavigateToHome()
+                LevelSelectionEvent.NavigateToSettings -> onNavigateToSettings()
             }
         }
     }

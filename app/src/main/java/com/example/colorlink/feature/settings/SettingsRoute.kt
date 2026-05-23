@@ -8,6 +8,8 @@ import org.koin.androidx.compose.koinViewModel
 
 @Composable
 fun SettingsRoute(
+    onNavigateToHome: () -> Unit,
+    onNavigateToLevelSelection: () -> Unit,
     onBack: () -> Unit,
     viewModel: SettingsViewModel = koinViewModel()
 ) {
@@ -21,6 +23,8 @@ fun SettingsRoute(
         viewModel.events.collect { event ->
             when (event) {
                 SettingsEvent.NavigateBack -> onBack()
+                SettingsEvent.NavigateToHome -> onNavigateToHome()
+                SettingsEvent.NavigateToLevelSelection -> onNavigateToLevelSelection()
             }
         }
     }

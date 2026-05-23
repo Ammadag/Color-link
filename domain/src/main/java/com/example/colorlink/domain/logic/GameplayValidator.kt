@@ -28,16 +28,14 @@ object GameplayValidator {
             return MoveResult.Invalid(InvalidMoveReason.AlreadyCompleted)
         }
 
-        // Rule: If targetCell is the same as the current tip, ignore it (NotAdjacent or custom reason)
+        // Rule: If targetCell is the same as the current tip, ignore it
         if (lastCell == targetCell) {
             return MoveResult.Invalid(InvalidMoveReason.NotAdjacent)
         }
 
-        // Rule: Backtrack or Trim (Priority over adjacency to support jumping back to own path)
+        // Rule: Backtrack or Trim
         if (activePath.cells.contains(targetCell)) {
             val index = activePath.cells.indexOf(targetCell)
-            // If it's the second-to-last cell, it's a standard backtrack.
-            // If it's even earlier, it's a trim. Both use MoveResult.Backtracked for state reduction.
             return MoveResult.Backtracked(activePath.copy(cells = activePath.cells.take(index + 1)))
         }
 
@@ -46,27 +44,32 @@ object GameplayValidator {
             return MoveResult.Invalid(InvalidMoveReason.NotAdjacent)
         }
 
-        // 6. Occupied by other path
+        // Check if targetCell is a dot
+        val dotAtTarget = level.dots.find { it.position == targetCell }
+        if (dotAtTarget != null) {
+            if (dotAtTarget.color == activePath.color) {
+                // Same color dot - Complete Path
+                // Ensure it's not the START dot
+                if (targetCell != activePath.cells.first()) {
+                    return MoveResult.Completed(activePath.copy(cells = activePath.cells + targetCell, isCompleted = true))
+                } else {
+                    return MoveResult.Invalid(InvalidMoveReason.NotAdjacent)
+                }
+            } else {
+                // Other color dot
+                return MoveResult.Invalid(InvalidMoveReason.OtherColorDot)
+            }
+        }
+
+        // Check if occupied by other path (and not a dot)
+        // Rule: We can overwrite other incomplete paths to make the game feel fluid
+        // For now, let's keep it simple: if it's occupied by a DIFFERENT color path, it's invalid
         val otherPath = existingPaths.find { it.color != activePath.color && it.cells.contains(targetCell) }
         if (otherPath != null) {
             return MoveResult.Invalid(InvalidMoveReason.OccupiedByOtherPath)
         }
 
-        // 7. Check for dots
-        val dotAtTarget = level.dots.find { it.position == targetCell }
-        if (dotAtTarget != null) {
-            if (dotAtTarget.color == activePath.color) {
-                // 8. Same color dot - Complete Path
-                // Adjacency is already checked above. 
-                // We know targetCell != activePath.cells.first() because own-path check was done earlier.
-                return MoveResult.Completed(activePath.copy(cells = activePath.cells + targetCell, isCompleted = true))
-            } else {
-                // 7. Other color dot
-                return MoveResult.Invalid(InvalidMoveReason.OtherColorDot)
-            }
-        }
-
-        // 9. Valid Append
+        // Valid Append
         return MoveResult.Valid(activePath.copy(cells = activePath.cells + targetCell))
     }
 

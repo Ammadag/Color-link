@@ -1,14 +1,22 @@
 package com.example.colorlink.feature.home
 
 import com.example.colorlink.core.mvi.StateViewModel
-import com.example.colorlink.domain.repository.ProgressRepository
+import com.example.colorlink.domain.usecase.GetProgressSummaryUseCase
+import com.example.colorlink.domain.usecase.GetUserStatsUseCase
+import com.example.colorlink.domain.usecase.UpdateStreakUseCase
+import com.example.colorlink.ui.navigation.Screen
+import kotlinx.coroutines.flow.collectLatest
 
 class HomeViewModel(
-    private val progressRepository: ProgressRepository
+    private val getProgressSummaryUseCase: GetProgressSummaryUseCase,
+    private val getUserStatsUseCase: GetUserStatsUseCase,
+    private val updateStreakUseCase: UpdateStreakUseCase
 ) : StateViewModel<HomeState, HomeIntent, HomeEvent>(HomeState()) {
 
     init {
         loadHomeData()
+        observeUserStats()
+        updateStreak()
     }
 
     override fun handleIntent(intent: HomeIntent) {
@@ -17,21 +25,24 @@ class HomeViewModel(
                 // Navigate to the next available level
                 emitEvent(HomeEvent.NavigateToGameplay("level_${state.value.currentLevelNumber}"))
             }
+
             HomeIntent.LevelSelectionClicked -> {
                 emitEvent(HomeEvent.NavigateToLevelSelection)
             }
+
             HomeIntent.DailyPuzzleClicked -> {
                 emitEvent(HomeEvent.NavigateToDailyPuzzle)
             }
+
             HomeIntent.SettingsClicked -> {
                 emitEvent(HomeEvent.NavigateToSettings)
             }
+
             is HomeIntent.TabClicked -> {
-                updateState { copy(selectedTab = intent.index) }
-                when (intent.index) {
-                    1 -> emitEvent(HomeEvent.NavigateToLevelSelection)
-                    2 -> emitEvent(HomeEvent.NavigateToDailyPuzzle)
-                    3 -> emitEvent(HomeEvent.NavigateToSettings)
+                when (intent.route) {
+                    Screen.LevelSelection.route -> emitEvent(HomeEvent.NavigateToLevelSelection)
+                    Screen.DailyPuzzle.route -> emitEvent(HomeEvent.NavigateToDailyPuzzle)
+                    Screen.Settings.route -> emitEvent(HomeEvent.NavigateToSettings)
                 }
             }
         }
@@ -39,16 +50,35 @@ class HomeViewModel(
 
     private fun loadHomeData() {
         launchSafely {
-            val allProgress = progressRepository.getAllProgress()
-            val totalStars = allProgress.sumOf { it.stars }
-            val nextLevel = (allProgress.maxOfOrNull { it.levelId.filter { char -> char.isDigit() }.toIntOrNull() ?: 0 } ?: 0) + 1
-            
-            updateState { 
+            val summary = getProgressSummaryUseCase()
+
+            updateState {
                 copy(
-                    totalStars = totalStars,
-                    currentLevelNumber = if (nextLevel == 0) 1 else nextLevel
+                    totalStars = summary.totalStars,
+                    currentLevelNumber = summary.nextLevelNumber,
+                    unlockedWorldInfo = "Pack: Beginner" // For now, we only have beginner pack
                 )
             }
+        }
+    }
+
+    private fun observeUserStats() {
+        launchSafely {
+            getUserStatsUseCase().collectLatest { stats ->
+                updateState {
+                    copy(
+                        hints = stats.hints,
+                        streakDays = stats.streaks,
+                        coins = stats.coins
+                    )
+                }
+            }
+        }
+    }
+
+    private fun updateStreak() {
+        launchSafely {
+            updateStreakUseCase()
         }
     }
 }

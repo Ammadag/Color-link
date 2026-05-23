@@ -12,11 +12,13 @@ fun ColorLinkTheme(
 ) {
     // Only Dark Palette is supported for now as per design-system.md
     val colors = DarkColorPalette
+    val typography = colorLinkTypography()
+    val spacing = colorLinkSpacing()
 
     CompositionLocalProvider(
         LocalColorLinkColors provides colors,
-        LocalColorLinkTypography provides ColorLinkTypographyDefault,
-        LocalColorLinkSpacing provides ColorLinkSpacing(),
+        LocalColorLinkTypography provides typography,
+        LocalColorLinkSpacing provides spacing,
         LocalColorLinkShapes provides ColorLinkShapes(),
         content = content
     )
@@ -30,13 +32,11 @@ object ColorLinkTheme {
 
     val typography: ColorLinkTypography
         @Composable
-        @ReadOnlyComposable
-        get() = LocalColorLinkTypography.current
+        get() = LocalColorLinkTypography.current ?: colorLinkTypography()
 
     val spacing: ColorLinkSpacing
         @Composable
-        @ReadOnlyComposable
-        get() = LocalColorLinkSpacing.current
+        get() = LocalColorLinkSpacing.current ?: colorLinkSpacing()
 
     val shapes: ColorLinkShapes
         @Composable

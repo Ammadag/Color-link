@@ -2,12 +2,22 @@ package com.example.colorlink.feature.gameplay.components
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.gestures.detectDragGestures
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.offset
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.graphics.*
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.PathEffect
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.input.pointer.pointerInput
@@ -28,14 +38,16 @@ fun GameBoard(
     onStartDrag: (BoardPosition) -> Unit,
     onDragTo: (BoardPosition) -> Unit,
     onEndDrag: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    hintPath: ColorPath? = null
 ) {
     val colors = ColorLinkTheme.colors
     val density = LocalDensity.current
-    
+
     // Pre-calculate path colors to avoid @Composable calls inside DrawScope
     val resolvedPaths = paths.map { it.cells to it.color.toComposeColor(colors) }
     val resolvedActivePath = activePath?.let { it.cells to it.color.toComposeColor(colors) }
+    val resolvedHintPath = hintPath?.let { it.cells to it.color.toComposeColor(colors) }
 
     BoxWithConstraints(
         modifier = modifier
@@ -59,9 +71,17 @@ fun GameBoard(
 
         // 2. Paths
         Canvas(modifier = Modifier.fillMaxSize()) {
+            // 2.1 Hint Path
+            resolvedHintPath?.let { (cells, color) ->
+                drawNeonPath(cells, color.copy(alpha = 0.3f), cellSize, isDashed = true)
+            }
+
+            // 2.2 Existing Paths
             resolvedPaths.forEach { (cells, color) ->
                 drawNeonPath(cells, color, cellSize)
             }
+
+            // 2.3 Active Path
             resolvedActivePath?.let { (cells, color) ->
                 drawNeonPath(cells, color, cellSize)
             }
@@ -70,7 +90,7 @@ fun GameBoard(
         // 3. Dots
         level.dots.forEach { dot ->
             val isActive = activePath?.color == dot.color
-            
+
             val xOffset = with(density) { (dot.position.column * cellSize).toDp() }
             val yOffset = with(density) { (dot.position.row * cellSize).toDp() }
             val cellSizeDp = with(density) { cellSize.toDp() }
@@ -99,7 +119,7 @@ private fun Modifier.rememberBoardPointerInput(
     onEndDrag: () -> Unit
 ): Modifier = pointerInput(rows, columns) {
     val boardSizePx = size.width.toFloat()
-    
+
     detectDragGestures(
         onDragStart = { offset ->
             offset.toBoardPositionOrNull(boardSizePx, rows, columns)?.let(onStartDrag)
@@ -150,7 +170,8 @@ private fun DrawScope.drawGrid(rows: Int, columns: Int, cellSize: Float) {
 private fun DrawScope.drawNeonPath(
     cells: List<BoardPosition>,
     color: Color,
-    cellSize: Float
+    cellSize: Float,
+    isDashed: Boolean = false
 ) {
     if (cells.size < 2) return
 
@@ -163,6 +184,10 @@ private fun DrawScope.drawNeonPath(
         }
     }
 
+    val effect = if (isDashed) {
+        PathEffect.dashPathEffect(floatArrayOf(10f, 10f), 0f)
+    } else null
+
     // Glow
     drawPath(
         path = path,
@@ -170,7 +195,8 @@ private fun DrawScope.drawNeonPath(
         style = Stroke(
             width = cellSize * 0.35f,
             cap = StrokeCap.Round,
-            join = StrokeJoin.Round
+            join = StrokeJoin.Round,
+            pathEffect = effect
         )
     )
 
@@ -181,7 +207,8 @@ private fun DrawScope.drawNeonPath(
         style = Stroke(
             width = cellSize * 0.22f,
             cap = StrokeCap.Round,
-            join = StrokeJoin.Round
+            join = StrokeJoin.Round,
+            pathEffect = effect
         )
     )
 }

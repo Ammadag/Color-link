@@ -19,6 +19,8 @@ class SettingsRepositoryImpl(
         val soundEnabled = booleanPreferencesKey("sound_enabled")
         val musicEnabled = booleanPreferencesKey("music_enabled")
         val hapticsEnabled = booleanPreferencesKey("haptics_enabled")
+        val notificationsEnabled = booleanPreferencesKey("notifications_enabled")
+        val language = stringPreferencesKey("language")
         val themeMode = stringPreferencesKey("theme_mode")
         val onboardingCompleted = booleanPreferencesKey("onboarding_completed")
     }
@@ -28,6 +30,8 @@ class SettingsRepositoryImpl(
             soundEnabled = preferences[Keys.soundEnabled] ?: true,
             musicEnabled = preferences[Keys.musicEnabled] ?: true,
             hapticsEnabled = preferences[Keys.hapticsEnabled] ?: true,
+            notificationsEnabled = preferences[Keys.notificationsEnabled] ?: true,
+            language = preferences[Keys.language] ?: "English",
             themeMode = ThemeMode.valueOf(preferences[Keys.themeMode] ?: ThemeMode.Dark.name),
             isOnboardingCompleted = preferences[Keys.onboardingCompleted] ?: false
         )
@@ -38,6 +42,8 @@ class SettingsRepositoryImpl(
             preferences[Keys.soundEnabled] = settings.soundEnabled
             preferences[Keys.musicEnabled] = settings.musicEnabled
             preferences[Keys.hapticsEnabled] = settings.hapticsEnabled
+            preferences[Keys.notificationsEnabled] = settings.notificationsEnabled
+            preferences[Keys.language] = settings.language
             preferences[Keys.themeMode] = settings.themeMode.name
             preferences[Keys.onboardingCompleted] = settings.isOnboardingCompleted
         }

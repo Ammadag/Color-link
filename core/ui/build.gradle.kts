@@ -13,11 +13,11 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "21"
     }
     buildFeatures {
         compose = true
@@ -34,4 +34,7 @@ dependencies {
     api(libs.androidx.material3)
     api(libs.androidx.lifecycle.runtime.compose)
     api(libs.androidx.activity.compose)
+    
+    api(libs.sdp.android)
+    api(libs.ssp.android)
 }

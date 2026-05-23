@@ -15,8 +15,13 @@ serialization = "1.6.3"
 androidLibrary = "8.7.3"
 kotlinSymbolProcessing = "2.0.0-1.0.21"
 coreSplashScreen = "1.0.1"
+sdp = "1.1.1"
+workManager = "2.9.1"
 
 [libraries]
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workManager" }
+sdp-android = { group = "com.intuit.sdp", name = "sdp-android", version.ref = "sdp" }
+ssp-android = { group = "com.intuit.ssp", name = "ssp-android", version.ref = "sdp" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashScreen" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }

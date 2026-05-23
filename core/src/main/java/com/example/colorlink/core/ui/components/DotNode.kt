@@ -14,9 +14,9 @@ import androidx.compose.ui.draw.blur
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.dp
 import com.example.colorlink.core.ui.theme.ColorLinkColors
 import com.example.colorlink.core.ui.theme.ColorLinkTheme
+import com.example.colorlink.core.ui.theme.sdp
 import com.example.colorlink.domain.model.DotColor
 
 @Composable
@@ -24,11 +24,11 @@ fun DotNode(
     color: DotColor,
     modifier: Modifier = Modifier,
     isActive: Boolean = false,
-    dotSize: Dp = 32.dp
+    dotSize: Dp = 32.sdp()
 ) {
     val colors = ColorLinkTheme.colors
     val composeColor = color.toComposeColor(colors)
-    
+
     val scale by animateFloatAsState(
         targetValue = if (isActive) 1.12f else 1.0f,
         label = "dot-scale"
@@ -47,10 +47,10 @@ fun DotNode(
         Box(
             modifier = Modifier
                 .fillMaxSize(1.4f)
-                .blur(8.dp)
+                .blur(8.sdp())
                 .background(composeColor.copy(alpha = 0.4f), CircleShape)
         )
-        
+
         // Main dot
         Box(
             modifier = Modifier

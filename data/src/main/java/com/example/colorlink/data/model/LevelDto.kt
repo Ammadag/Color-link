@@ -5,6 +5,8 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class LevelPackDto(
     val packId: String,
+    val title: String? = null,
+    val description: String? = null,
     val levels: List<LevelDto>
 )
 
@@ -15,7 +17,14 @@ data class LevelDto(
     val difficulty: String,
     val gridSize: GridSizeDto,
     val pairs: List<DotPairDto>,
-    val starRules: StarRulesDto? = null
+    val starRules: StarRulesDto? = null,
+    val solution: List<SolutionPathDto>? = null
+)
+
+@Serializable
+data class SolutionPathDto(
+    val pairId: String,
+    val path: List<PositionDto>
 )
 
 @Serializable

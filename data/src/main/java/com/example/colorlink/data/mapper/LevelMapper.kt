@@ -1,7 +1,14 @@
 package com.example.colorlink.data.mapper
 
-import com.example.colorlink.data.model.*
-import com.example.colorlink.domain.model.*
+import com.example.colorlink.data.model.LevelDto
+import com.example.colorlink.data.model.PositionDto
+import com.example.colorlink.data.model.StarRulesDto
+import com.example.colorlink.domain.model.BoardPosition
+import com.example.colorlink.domain.model.ColorPath
+import com.example.colorlink.domain.model.Dot
+import com.example.colorlink.domain.model.DotColor
+import com.example.colorlink.domain.model.Level
+import com.example.colorlink.domain.model.StarRules
 
 fun LevelDto.toDomain(): Level {
     return Level(
@@ -23,7 +30,16 @@ fun LevelDto.toDomain(): Level {
                 )
             )
         },
-        starRules = starRules?.toDomain()
+        starRules = starRules?.toDomain(),
+        solutions = solution?.map { solDto ->
+            // Find the color from pairs
+            val pair = pairs.find { it.id == solDto.pairId }
+            ColorPath(
+                color = pair?.color?.toDotColor() ?: DotColor.Blue,
+                cells = solDto.path.map { it.toDomain() },
+                isCompleted = true
+            )
+        } ?: emptyList()
     )
 }
 
@@ -34,4 +50,8 @@ fun StarRulesDto.toDomain(): StarRules = StarRules(
     twoStarsMaxMoves = twoStarsMaxMoves
 )
 
-fun String.toDotColor(): DotColor = DotColor.valueOf(this)
+fun String.toDotColor(): DotColor = try {
+    DotColor.valueOf(this.lowercase().replaceFirstChar { it.uppercase() })
+} catch (e: Exception) {
+    DotColor.Blue // Fallback
+}

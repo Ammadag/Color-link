@@ -13,7 +13,9 @@ val gameplayModule = module {
             validateMoveUseCase = get(),
             checkWinConditionUseCase = get(),
             calculateStarsUseCase = get(),
-            interpolateCellsUseCase = get()
+            interpolateCellsUseCase = get(),
+            useHintUseCase = get(),
+            getHintUseCase = get()
         )
     }
 }

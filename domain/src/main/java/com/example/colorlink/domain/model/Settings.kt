@@ -4,6 +4,8 @@ data class Settings(
     val soundEnabled: Boolean = true,
     val musicEnabled: Boolean = true,
     val hapticsEnabled: Boolean = true,
+    val notificationsEnabled: Boolean = true,
+    val language: String = "English",
     val themeMode: ThemeMode = ThemeMode.Dark,
     val isOnboardingCompleted: Boolean = false
 )

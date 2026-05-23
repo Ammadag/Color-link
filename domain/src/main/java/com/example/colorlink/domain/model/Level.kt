@@ -8,7 +8,8 @@ data class Level(
     val dots: List<Dot>,
     val blockedCells: List<BoardPosition> = emptyList(),
     val optimalMoves: Int? = null,
-    val starRules: StarRules? = null
+    val starRules: StarRules? = null,
+    val solutions: List<ColorPath> = emptyList()
 )
 
 data class StarRules(

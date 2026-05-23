@@ -14,9 +14,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.example.colorlink.core.ui.theme.ColorLinkTheme
+import com.example.colorlink.core.ui.theme.sdp
+import com.example.colorlink.core.ui.theme.ssp
 
 @Composable
 fun ColorLinkStatBadge(
@@ -30,21 +30,21 @@ fun ColorLinkStatBadge(
         modifier = modifier
             .clip(ColorLinkTheme.shapes.full)
             .background(containerColor)
-            .padding(horizontal = 8.dp, vertical = 4.dp),
+            .padding(horizontal = 8.sdp(), vertical = 4.sdp()),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Icon(
             imageVector = icon,
             contentDescription = null,
             tint = contentColor,
-            modifier = Modifier.size(16.dp)
+            modifier = Modifier.size(16.sdp())
         )
         Spacer(modifier = Modifier.width(ColorLinkTheme.spacing.unit))
         Text(
             text = value,
             style = ColorLinkTheme.typography.labelLg,
             color = ColorLinkTheme.colors.onSurface,
-            fontSize = 12.sp
+            fontSize = 12.ssp()
         )
     }
 }

@@ -6,7 +6,11 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsPressedAsState
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Badge
 import androidx.compose.material3.BadgedBox
@@ -22,8 +26,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
 import com.example.colorlink.core.ui.theme.ColorLinkTheme
+import com.example.colorlink.core.ui.theme.sdp
 
 @Composable
 fun ControlCircleButton(
@@ -64,18 +68,22 @@ fun ControlCircleButton(
         ) {
             Box(
                 modifier = Modifier
-                    .size(56.dp)
+                    .size(56.sdp())
                     .graphicsLayer {
                         scaleX = scale
                         scaleY = scale
                     }
                     .clip(CircleShape)
                     .background(
-                        if (isPrimary) ColorLinkTheme.colors.primaryContainer 
+                        if (isPrimary) ColorLinkTheme.colors.primaryContainer
                         else Color.White.copy(alpha = 0.05f)
                     )
                     .then(
-                        if (!isPrimary) Modifier.border(1.dp, Color.White.copy(alpha = 0.10f), CircleShape)
+                        if (!isPrimary) Modifier.border(
+                            1.sdp(),
+                            Color.White.copy(alpha = 0.10f),
+                            CircleShape
+                        )
                         else Modifier
                     )
                     .clickable(
@@ -89,13 +97,13 @@ fun ControlCircleButton(
                     imageVector = icon,
                     contentDescription = label,
                     tint = if (isPrimary) ColorLinkTheme.colors.onPrimaryContainer else ColorLinkTheme.colors.primary,
-                    modifier = Modifier.size(28.dp)
+                    modifier = Modifier.size(28.sdp())
                 )
             }
         }
-        
+
         Spacer(modifier = Modifier.height(ColorLinkTheme.spacing.unit))
-        
+
         Text(
             text = label,
             style = ColorLinkTheme.typography.labelSm,

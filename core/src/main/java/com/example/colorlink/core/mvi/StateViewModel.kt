@@ -2,6 +2,8 @@ package com.example.colorlink.core.mvi
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -53,9 +55,9 @@ abstract class StateViewModel<State, Intent, Event>(initialState: State) : ViewM
      */
     protected fun launchSafely(
         context: CoroutineContext = EmptyCoroutineContext,
-        block: suspend () -> Unit
-    ) {
-        viewModelScope.launch(context) {
+        block: suspend CoroutineScope.() -> Unit
+    ): Job {
+        return viewModelScope.launch(context) {
             try {
                 block()
             } catch (e: Exception) {

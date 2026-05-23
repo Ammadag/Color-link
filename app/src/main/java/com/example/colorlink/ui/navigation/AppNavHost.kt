@@ -73,6 +73,17 @@ fun AppNavHost(
                 onNavigateToGameplay = { levelId ->
                     navController.navigate(Screen.Gameplay.createRoute(levelId))
                 },
+                onNavigateToHome = {
+                    navController.navigate(Screen.Home.route) {
+                        popUpTo(Screen.Home.route) { inclusive = true }
+                        launchSingleTop = true
+                    }
+                },
+                onNavigateToSettings = {
+                    navController.navigate(Screen.Settings.route) {
+                        launchSingleTop = true
+                    }
+                },
                 onBack = {
                     navController.popBackStack()
                 }
@@ -86,14 +97,32 @@ fun AppNavHost(
                 onBack = {
                     navController.popBackStack()
                 },
-                onNavigateToNextLevel = {
-                    // Navigate to next logic
+                onNavigateToLevelSelection = {
+                    navController.navigate(Screen.LevelSelection.route) {
+                        popUpTo(Screen.Gameplay.route) { inclusive = true }
+                    }
+                },
+                onNavigateToGameplay = { nextLevelId ->
+                    navController.navigate(Screen.Gameplay.createRoute(nextLevelId)) {
+                        popUpTo(Screen.Gameplay.route) { inclusive = true }
+                    }
                 }
             )
         }
 
         composable(Screen.Settings.route) {
             SettingsRoute(
+                onNavigateToHome = {
+                    navController.navigate(Screen.Home.route) {
+                        popUpTo(Screen.Home.route) { inclusive = true }
+                        launchSingleTop = true
+                    }
+                },
+                onNavigateToLevelSelection = {
+                    navController.navigate(Screen.LevelSelection.route) {
+                        launchSingleTop = true
+                    }
+                },
                 onBack = {
                     navController.popBackStack()
                 }

@@ -37,25 +37,6 @@ Use these modules only:
 :domain
 :data
 ```
-Do not create feature-api / feature-impl modules for MVP.
-Do not create these modules unless explicitly requested later:
-```text
-:feature:home-api
-:feature:home-impl
-:feature:levels-api
-:feature:levels-impl
-:feature:gameplay-api
-:feature:gameplay-impl
-:core:network
-:core:database
-:core:navigation
-:data:remote
-:ads
-:auth
-:shop
-:leaderboard
-:remote-config
-```
 The goal is to keep the app clean and scalable without over-engineering the first version.
 ---
 Module responsibilities
@@ -396,7 +377,7 @@ The app is local-first.
 Use local JSON assets for bundled levels.
 Example:
 ```text
-data/src/main/assets/levels/beginner.json
+data/src/main/assets/levels/
 ```
 Use DataStore for simple local state:
 Completed levels
@@ -593,7 +574,6 @@ Summarize files changed and remaining TODOs.
 ---
 What not to do
 Do not rewrite the entire app unless explicitly asked.
-Do not reintroduce the old feature-api/feature-impl module structure for MVP.
 Do not invent a new visual style.
 Do not replace MVI contracts with callback-heavy UI logic.
 Do not use XML layouts.

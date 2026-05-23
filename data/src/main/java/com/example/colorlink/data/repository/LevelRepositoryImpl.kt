@@ -15,16 +15,31 @@ class LevelRepositoryImpl(
 ) : LevelRepository {
 
     override suspend fun getLevel(levelId: String): Level = withContext(Dispatchers.IO) {
-        // In a real app, we might scan all packs, but for MVP we assume we know the pack 
-        // or search through them. For now, let's just load beginner.
-        val levels = getLevelsByPack("beginner")
-        levels.find { it.id == levelId } ?: throw NoSuchElementException("Level $levelId not found")
+        // Search through all packs
+        val packs = listOf("classic", "easy", "medium", "hard")
+        val levels = packs.flatMap { getLevelsByPack(it) }
+
+        val level = if (levelId.startsWith("level_")) {
+            val number = levelId.removePrefix("level_").toIntOrNull()
+            levels.find { it.number == number }
+        } else {
+            levels.find { it.id == levelId }
+        }
+
+        level ?: throw NoSuchElementException("Level $levelId not found")
     }
 
-    override suspend fun getLevelsByPack(packId: String): List<Level> = withContext(Dispatchers.IO) {
-        val fileName = "levels/$packId.json"
-        val jsonString = context.assets.open(fileName).bufferedReader().use { it.readText() }
-        val packDto = json.decodeFromString<LevelPackDto>(jsonString)
-        packDto.levels.map { it.toDomain() }
-    }
+    override suspend fun getLevelsByPack(packId: String): List<Level> =
+        withContext(Dispatchers.IO) {
+            val fileName = "levels/$packId.json"
+            try {
+                val jsonString =
+                    context.assets.open(fileName).bufferedReader().use { it.readText() }
+                val packDto = json.decodeFromString<LevelPackDto>(jsonString)
+                packDto.levels.map { it.toDomain() }
+            } catch (e: Exception) {
+                // If it fails, return empty list instead of crashing/hanging
+                emptyList()
+            }
+        }
 }

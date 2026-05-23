@@ -10,8 +10,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
-import androidx.compose.ui.unit.dp
 import com.example.colorlink.core.ui.theme.ColorLinkTheme
+import com.example.colorlink.core.ui.theme.sdp
 
 @Composable
 fun GlassCard(
@@ -25,7 +25,7 @@ fun GlassCard(
             .clip(shape)
             .then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier)
             .background(Color.White.copy(alpha = 0.05f))
-            .border(1.dp, Color.White.copy(alpha = 0.10f), shape)
+            .border(1.sdp(), Color.White.copy(alpha = 0.10f), shape)
             .padding(ColorLinkTheme.spacing.stackMd)
     ) {
         content()

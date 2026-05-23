@@ -1,10 +1,12 @@
 package com.example.colorlink.core.ui.theme
 
+import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
 
 // Note: Quicksand font files are not yet present in the project.
@@ -23,51 +25,59 @@ data class ColorLinkTypography(
     val labelSm: TextStyle
 )
 
-val ColorLinkTypographyDefault = ColorLinkTypography(
-    displayLg = TextStyle(
-        fontFamily = Quicksand,
-        fontWeight = FontWeight.Bold,
-        fontSize = 40.sp,
-        lineHeight = 48.sp,
-        letterSpacing = (-0.02).sp // Adjusted to .sp for consistency with core, but docs suggest em.
-    ),
-    headlineLg = TextStyle(
-        fontFamily = Quicksand,
-        fontWeight = FontWeight.Bold,
-        fontSize = 32.sp,
-        lineHeight = 40.sp
-    ),
-    headlineMd = TextStyle(
-        fontFamily = Quicksand,
-        fontWeight = FontWeight.SemiBold,
-        fontSize = 24.sp,
-        lineHeight = 32.sp
-    ),
-    bodyLg = TextStyle(
-        fontFamily = Quicksand,
-        fontWeight = FontWeight.Medium,
-        fontSize = 18.sp,
-        lineHeight = 26.sp
-    ),
-    bodyMd = TextStyle(
-        fontFamily = Quicksand,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        lineHeight = 24.sp
-    ),
-    labelLg = TextStyle(
-        fontFamily = Quicksand,
-        fontWeight = FontWeight.SemiBold,
-        fontSize = 14.sp,
-        lineHeight = 20.sp,
-        letterSpacing = 0.05.sp
-    ),
-    labelSm = TextStyle(
-        fontFamily = Quicksand,
-        fontWeight = FontWeight.Medium,
-        fontSize = 12.sp,
-        lineHeight = 16.sp
+@Composable
+fun colorLinkTypography(): ColorLinkTypography {
+    return ColorLinkTypography(
+        displayLg = TextStyle(
+            fontFamily = Quicksand,
+            fontWeight = FontWeight.Bold,
+            fontSize = 33.ssp(),
+            lineHeight = 40.ssp(),
+            letterSpacing = (-0.02).ssp()
+        ),
+        headlineLg = TextStyle(
+            fontFamily = Quicksand,
+            fontWeight = FontWeight.Bold,
+            fontSize = 27.ssp(),
+            lineHeight = 33.ssp()
+        ),
+        headlineMd = TextStyle(
+            fontFamily = Quicksand,
+            fontWeight = FontWeight.SemiBold,
+            fontSize = 20.ssp(),
+            lineHeight = 27.ssp()
+        ),
+        bodyLg = TextStyle(
+            fontFamily = Quicksand,
+            fontWeight = FontWeight.Medium,
+            fontSize = 15.ssp(),
+            lineHeight = 22.ssp()
+        ),
+        bodyMd = TextStyle(
+            fontFamily = Quicksand,
+            fontWeight = FontWeight.Normal,
+            fontSize = 13.ssp(),
+            lineHeight = 20.ssp()
+        ),
+        labelLg = TextStyle(
+            fontFamily = Quicksand,
+            fontWeight = FontWeight.SemiBold,
+            fontSize = 12.ssp(),
+            lineHeight = 17.ssp(),
+            letterSpacing = 0.05.ssp()
+        ),
+        labelSm = TextStyle(
+            fontFamily = Quicksand,
+            fontWeight = FontWeight.Medium,
+            fontSize = 10.ssp(),
+            lineHeight = 13.ssp()
+        )
     )
-)
+}
 
-val LocalColorLinkTypography = staticCompositionLocalOf { ColorLinkTypographyDefault }
+@Composable
+fun Double.ssp(): TextUnit {
+    return (this.toFloat() * 1.ssp().value).sp
+}
+
+val LocalColorLinkTypography = staticCompositionLocalOf<ColorLinkTypography?> { null }

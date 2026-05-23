@@ -10,17 +10,17 @@ class GetLevelsWithProgressUseCase(
     private val levelRepository: LevelRepository,
     private val progressRepository: ProgressRepository
 ) {
-    operator fun invoke(packId: String = "beginner"): Flow<List<LevelWithProgress>> = flow {
+    operator fun invoke(packId: String = "classic"): Flow<List<LevelWithProgress>> = flow {
         val levels = levelRepository.getLevelsByPack(packId)
         val allProgress = progressRepository.getAllProgress().associateBy { it.levelId }
-        
+
         // A level is unlocked if it's the first one or if the previous one is completed
         var previousCompleted = true
         val result = levels.mapIndexed { index, level ->
             val progress = allProgress[level.id]
             val isUnlocked = index == 0 || previousCompleted
             previousCompleted = progress?.isCompleted ?: false
-            
+
             LevelWithProgress(
                 level = level,
                 progress = progress,

@@ -11,4 +11,9 @@ val domainModule = module {
     factory { InterpolateCellsUseCase() }
     factory { GetSettingsUseCase(get()) }
     factory { GetLevelsWithProgressUseCase(get(), get()) }
+    factory { GetUserStatsUseCase(get()) }
+    factory { GetProgressSummaryUseCase(get()) }
+    factory { UseHintUseCase(get()) }
+    factory { UpdateStreakUseCase(get()) }
+    factory { GetHintUseCase() }
 }

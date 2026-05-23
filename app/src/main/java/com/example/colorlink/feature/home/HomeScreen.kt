@@ -1,7 +1,20 @@
 package com.example.colorlink.feature.home
 
 import androidx.compose.foundation.Canvas
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.offset
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Apps
@@ -17,13 +30,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.example.colorlink.core.ui.components.ColorLinkScaffold
 import com.example.colorlink.core.ui.components.DotNode
 import com.example.colorlink.core.ui.components.GlassCard
 import com.example.colorlink.core.ui.components.PrimaryGlowButton
 import com.example.colorlink.core.ui.theme.ColorLinkTheme
+import com.example.colorlink.core.ui.theme.sdp
+import com.example.colorlink.core.ui.theme.ssp
 import com.example.colorlink.domain.model.DotColor
 import com.example.colorlink.ui.components.ColorLinkMainBottomNavBar
 import com.example.colorlink.ui.components.ColorLinkMainTopBar
@@ -46,13 +59,7 @@ fun HomeScreen(
         bottomBar = {
             ColorLinkMainBottomNavBar(
                 currentRoute = Screen.Home.route,
-                onNavigate = { route ->
-                    when (route) {
-                        Screen.LevelSelection.route -> onIntent(HomeIntent.LevelSelectionClicked)
-                        Screen.DailyPuzzle.route -> onIntent(HomeIntent.DailyPuzzleClicked)
-                        Screen.Settings.route -> onIntent(HomeIntent.SettingsClicked)
-                    }
-                }
+                onNavigate = { route -> onIntent(HomeIntent.TabClicked(route)) }
             )
         }
     ) { innerModifier ->
@@ -61,7 +68,7 @@ fun HomeScreen(
                 .fillMaxSize()
                 .padding(horizontal = ColorLinkTheme.spacing.containerPadding),
             verticalArrangement = Arrangement.spacedBy(ColorLinkTheme.spacing.stackMd),
-            contentPadding = PaddingValues(top = ColorLinkTheme.spacing.stackMd, bottom = 100.dp)
+            contentPadding = PaddingValues(top = ColorLinkTheme.spacing.stackMd, bottom = 83.sdp())
         ) {
             item {
                 GlassCard(
@@ -96,7 +103,7 @@ fun HomeScreen(
                             imageVector = Icons.Default.Apps,
                             contentDescription = null,
                             tint = ColorLinkTheme.colors.secondary,
-                            modifier = Modifier.size(28.dp)
+                            modifier = Modifier.size(23.sdp())
                         )
                         Spacer(modifier = Modifier.height(ColorLinkTheme.spacing.unit))
                         Text(
@@ -127,7 +134,7 @@ fun HomeScreen(
                             Column {
                                 Text(
                                     text = "CURRENT LEVEL",
-                                    style = ColorLinkTheme.typography.labelSm.copy(fontSize = 10.sp),
+                                    style = ColorLinkTheme.typography.labelSm.copy(fontSize = 8.ssp()),
                                     color = ColorLinkTheme.colors.onSurfaceVariant
                                 )
                                 Text(
@@ -140,7 +147,7 @@ fun HomeScreen(
                                 imageVector = Icons.Outlined.StarBorder,
                                 contentDescription = null,
                                 tint = ColorLinkTheme.colors.onSurfaceVariant.copy(alpha = 0.3f),
-                                modifier = Modifier.size(36.dp)
+                                modifier = Modifier.size(30.sdp())
                             )
                         }
                     }
@@ -154,12 +161,12 @@ fun HomeScreen(
                             Column {
                                 Text(
                                     text = "STREAK",
-                                    style = ColorLinkTheme.typography.labelSm.copy(fontSize = 10.sp),
+                                    style = ColorLinkTheme.typography.labelSm.copy(fontSize = 8.ssp()),
                                     color = ColorLinkTheme.colors.onSurfaceVariant
                                 )
                                 Text(
                                     text = "${state.streakDays} Days",
-                                    style = ColorLinkTheme.typography.headlineMd.copy(fontSize = 20.sp),
+                                    style = ColorLinkTheme.typography.headlineMd.copy(fontSize = 17.ssp()),
                                     color = ColorLinkTheme.colors.secondary
                                 )
                             }
@@ -167,7 +174,7 @@ fun HomeScreen(
                                 imageVector = Icons.Default.LocalFireDepartment,
                                 contentDescription = null,
                                 tint = ColorLinkTheme.colors.secondary.copy(alpha = 0.4f),
-                                modifier = Modifier.size(36.dp)
+                                modifier = Modifier.size(30.sdp())
                             )
                         }
                     }
@@ -183,7 +190,10 @@ fun HomeScreen(
                         modifier = Modifier.weight(1f),
                         onClick = { onIntent(HomeIntent.DailyPuzzleClicked) }
                     ) {
-                        Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
+                        Column(
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
                             Icon(
                                 imageVector = Icons.Default.CalendarMonth,
                                 contentDescription = null,
@@ -202,7 +212,10 @@ fun HomeScreen(
                         modifier = Modifier.weight(1f),
                         onClick = { onIntent(HomeIntent.SettingsClicked) }
                     ) {
-                        Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
+                        Column(
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
                             Icon(
                                 imageVector = Icons.Default.Settings,
                                 contentDescription = null,
@@ -265,14 +278,15 @@ private fun MiniBoardPreview() {
             )
 
             dots.forEach { (r, c, color) ->
+                val dotSize = 32.sdp()
                 DotNode(
                     color = color,
                     modifier = Modifier
                         .offset(
-                            x = leftOffset + cellSize * c + (cellSize - 32.dp) / 2,
-                            y = topOffset + cellSize * r + (cellSize - 32.dp) / 2
+                            x = leftOffset + cellSize * c + (cellSize - dotSize) / 2,
+                            y = topOffset + cellSize * r + (cellSize - dotSize) / 2
                         ),
-                    dotSize = 32.dp
+                    dotSize = dotSize
                 )
             }
         }
